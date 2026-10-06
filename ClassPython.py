@@ -6,3 +6,4 @@ class PersegiPanjang:
         return 2 * (self.panjang + self.lebar)
     def luas(self):
         return self.panjang * self.lebar
+    def _str_(self):

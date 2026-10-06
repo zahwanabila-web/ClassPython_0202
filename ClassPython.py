@@ -10,3 +10,4 @@ class PersegiPanjang:
         return f"persegi panjang dengan panjang {self.panjang} cm dan lebar {self.lebar} cm"
 # main
 persegi = PersegiPanjang(3, 2)
+print("keliling:", persegi.keliling(), "cm")

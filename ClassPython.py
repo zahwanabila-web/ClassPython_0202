@@ -8,3 +8,5 @@ class PersegiPanjang:
         return self.panjang * self.lebar
     def _str_(self):
         return f"persegi panjang dengan panjang {self.panjang} cm dan lebar {self.lebar} cm"
+# main
+persegi = PersegiPanjang(3, 2)
